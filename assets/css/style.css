@@ -1,0 +1,78 @@
+.foto-header{
+background-image: url(../img/nacho3.jpeg);
+background-size: cover;
+background-position: top;
+font-family: 'Sriracha', cursive;
+background-repeat: no-repeat;
+height: 500px;
+text-align: right;
+color: #00FFFF;
+text-shadow: 2px 3px 2px #707070
+
+}
+
+.titulo-1{
+text-align: center;
+font-family: 'Patrick Hand', cursive;
+color: #0000CD
+}
+
+.section-1{
+  display: flex;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 80px;
+  margin-left: 30px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.section-2{
+display:flex;
+justify-content:center;
+width: 50rem;
+margin-right: 291px;
+float: right;
+font-size: 20px;
+flex-flow: wrap row;
+
+}
+
+.titulo-2{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Kelly Slab', cursive;
+  color: #00FF7F;
+}
+
+.foter{
+background-color: blue;
+display: flex;
+  width: 1520px;
+  height: 300px;
+  margin-top: 390px;
+  text-align: center;
+}
+
+.redes{
+  font-family: 'Source Code Pro', monospace;
+  color: #FFFF00;
+}
+
+.experiencia{
+  text-align: center;
+font-family: 'Luckiest Guy', cursive;
+margin-top: 10px;
+color:#FF6347
+}
+
+@media all and (max-width: 700px){
+  .section-1{
+    flex-direction: column;
+  }
+.section-2{
+  flex-direction: column;
+}
+.foter{
+  flex-direction: column;
+}
+}
